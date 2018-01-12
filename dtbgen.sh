@@ -36,7 +36,7 @@ ABORT "Unable to find gcc cross-compiler at location: ${CROSS_COMPILE}gcc"
 
 [ "$1" ] && DEVICE=$1
 [ "$2" ] && VARIANT=$2
-[ "$DEVICE" ] || DEVICE=noblelte
+[ "$DEVICE" ] || DEVICE=zeroflte
 [ "$VARIANT" ] || VARIANT=eur
 
 case $DEVICE in
