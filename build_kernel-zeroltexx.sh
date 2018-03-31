@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir modout
 make nethunter_zeroltexx_defconfig
 make INSTALL_MOD_PATH=modout
